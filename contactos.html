@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta a TechForap y solicita una cotización.">
+    <meta name="author" content="M.C. Ariel Martínez Roque">
+    <meta property="og:title" content="TechForap | Contacto">
+    <meta property="og:description" content="Contacta a TechForap y solicita una cotización.">
+    <title>TechForap | Contacto</title>
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.svg" alt="Logotipo de TechForap" width="120">
+        <h1>TechForap</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contacto y cotizaciones</h2>
+
+        <h3>Datos de contacto</h3>
+        <address>
+            Av. Universidad 123, Col. Centro, Cuernavaca, Morelos, México
+        </address>
+        <p>Teléfono: <a href="tel:+527771234567">777 123 4567</a></p>
+        <p>Correo: <a href="mailto:contacto@techforap.com">contacto@techforap.com</a></p>
+        <p><a href="https://www.google.com/maps/search/?api=1&query=Cuernavaca+Morelos" target="_blank" rel="noopener">Ver ubicación en Google Maps</a></p>
+
+        <h3>Solicita tu cotización</h3>
+        <form action="#" method="POST">
+
+            <fieldset>
+                <legend>Información Personal</legend>
+
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <br><br>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+            </fieldset>
+
+            <fieldset>
+                <legend>Detalles de la Solicitud</legend>
+
+                <label for="servicio">Servicio:</label>
+                <select id="servicio" name="servicio">
+                    <option value="S-001">Página web básica</option>
+                    <option value="S-002">Tienda en línea</option>
+                    <option value="S-003">Soporte técnico</option>
+                    <option value="S-004">Instalación de redes</option>
+                    <option value="S-005">Consultoría en TI</option>
+                </select>
+                <br><br>
+
+                <label for="fecha">Fecha preferida de atención:</label>
+                <input type="date" id="fecha" name="fecha">
+                <br><br>
+
+                <p>Tipo de cliente:</p>
+                <input type="radio" id="empresa" name="tipo_cliente" value="empresa">
+                <label for="empresa">Empresa</label>
+                <input type="radio" id="particular" name="tipo_cliente" value="particular">
+                <label for="particular">Particular</label>
+                <br><br>
+
+                <label for="mensaje">Comentarios adicionales:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea>
+            </fieldset>
+
+            <br>
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TechForap. Todos los derechos reservados.</p>
+        <p>Enlaces rápidos:
+            <a href="index.html">Inicio</a> |
+            <a href="nosotros.html">Nosotros</a> |
+            <a href="servicios.html">Servicios</a> |
+            <a href="contactos.html">Contacto</a>
+        </p>
+    </footer>
+
+</body>
+</html>
